@@ -1,0 +1,107 @@
+# Ingliz tili uchun tarjimalar
+msgid ""
+msgstr ""
+"Project-Id-Version: Journal\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-06-10 23:05+0500\n"
+"PO-Revision-Date: 2025-06-10 23:05+0500\n"
+"Last-Translator: Translator Name <translator@example.com>\n"
+"Language-Team: English <en@example.com>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: apps/users/models.py
+msgid "User"
+msgstr "User"
+
+#: apps/users/models.py
+msgid "Users"
+msgstr "Users"
+
+#: apps/users/models.py
+msgid "Researcher"
+msgstr "Researcher"
+
+#: apps/users/models.py
+msgid "Reviewer"
+msgstr "Reviewer"
+
+#: apps/users/models.py
+msgid "Moderator"
+msgstr "Moderator"
+
+#: apps/users/serializers.py
+msgid "Passwords do not match"
+msgstr "Passwords do not match"
+
+#: apps/users/serializers.py
+msgid "User with this email does not exist"
+msgstr "User with this email does not exist"
+
+#: apps/users/views.py
+msgid "Successfully registered!"
+msgstr "Successfully registered!"
+
+#: apps/articles/models.py
+msgid "Pending"
+msgstr "Pending"
+
+#: apps/articles/models.py
+msgid "Under Review"
+msgstr "Under Review"
+
+#: apps/articles/models.py
+msgid "Approved"
+msgstr "Approved"
+
+#: apps/articles/models.py
+msgid "Rejected"
+msgstr "Rejected"
+
+#: apps/articles/serializers.py
+msgid "Only researchers and reviewers can upload articles"
+msgstr "Only researchers and reviewers can upload articles"
+
+#: apps/reviews/serializers.py
+msgid "Only reviewers can leave reviews"
+msgstr "Only reviewers can leave reviews"
+
+#: apps/pages/views.py
+     msgid "Tashkent, Amir Temur street, 108 building, Tashkent information technology university"
+     msgstr "Tashkent, Amir Temur street, 108 building, Tashkent information technology university"
+
+     #: apps/pages/views.py
+     msgid "Azimov Sarvarbek, Moderator of bulletin of TUIT, Building B, 3 floor"
+     msgstr "Azimov Sarvarbek, Moderator of bulletin of TUIT, Building B, 3 floor"
+
+     #: apps/pages/views.py
+     msgid "tuit-bulletin@tuit.uz"
+     msgstr "tuit-bulletin@tuit.uz"
+
+     #: apps/pages/views.py
+     msgid "Message sent successfully!"
+     msgstr "Message sent successfully!"
+
+     #: apps/pages/models.py
+     msgid "First Name"
+     msgstr "First Name"
+
+     #: apps/pages/models.py
+     msgid "Email"
+     msgstr "Email"
+
+     #: apps/pages/models.py
+     msgid "Message"
+     msgstr "Message"
+
+     #: apps/pages/models.py
+     msgid "Contact"
+     msgstr "Contact"
+
+     #: apps/pages/models.py
+     msgid "Contacts"
+     msgstr "Contacts"
+     # ... (Oldingi tarjimalar)
