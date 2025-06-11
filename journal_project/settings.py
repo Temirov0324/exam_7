@@ -19,7 +19,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 SECRET_KEY = os.getenv('SECRET_KEY', 'django-insecure-your-secret-key')
 
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['*']
 
@@ -44,9 +44,10 @@ INSTALLED_APPS = [
     'pages',
     'publi'
 ]
-
+STATICFILES_STORAGE = 'django.contrib.staticfiles.storage.CachedStaticFilesStorage'
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
+    'whitenoise.middleware.WhiteNoiseMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.locale.LocaleMiddleware',
     'django.middleware.common.CommonMiddleware',
@@ -94,8 +95,8 @@ USE_TZ = True
 LANGUAGE_CODE = 'uz'
 LANGUAGES = [
     ('uz', 'Uzbek'),
-    #  ('en', 'English'),
-    # ('ru', 'Russian'),
+    ('en', 'English'),
+    ('ru', 'Russian'),
 ]
 
 LOCALE_PATHS = [BASE_DIR / 'locale']
